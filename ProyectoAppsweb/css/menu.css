@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+.col-md-offset-right-1,
+.col-lg-offset-right-1 {
+    margin-right: 8.33333333%;
+}
+
+
+html,body{
+  height:100%;
+  padding-top:70px;
+  overflow: scroll;
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1170px;
+  }
+}
+
+section {
+  height:calc(90% - 50px);
+  background: #fff;
+}
+
+.affix {
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;  
+  -o-transition:padding 0.5s linear;         
+  transition:padding 0.5s linear;  
+}
+
+.sec_h4 {
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #222222;
+  margin-bottom: 0px;
+}
+
+.mb_30 {
+  margin-bottom: -30px;
+}
+
+
+/*============= Start banner_area css =============*/
+
+.banner_area {
+  background: #04091e;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.banner_area .position {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.booking_table {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  min-height: 800px;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.banner_content {
+  color: #fff;
+  margin-bottom: 94px;
+}
+
+.banner_content h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.banner_content p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 0px 20px;
+  color: white;
+}
+
+
+/*============= End banner_area css =============*/
+
